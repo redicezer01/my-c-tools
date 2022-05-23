@@ -1,0 +1,2695 @@
+Name            : alsa-utils
+Version         : 1.2.6-1
+Description     : Advanced Linux Sound Architecture - Utilities
+Architecture    : x86_64
+URL             : https://www.alsa-project.org
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : glibc  pciutils  psmisc  libasound.so=2-64  libatopology.so=2-64  libformw.so=6-64  libmenuw.so=6-64  libncursesw.so=6-64  libpanelw.so=6-64  libsamplerate.so=0-64
+Optional Deps   : fftw: for alsabat [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.22 MiB
+Packager        : David Runge <dvzrv@archlinux.org>
+Build Date      : Tue 07 Dec 2021 12:44:25 AM +06
+Install Date    : Wed 09 Mar 2022 07:45:56 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : autoconf
+Version         : 2.71-1
+Description     : A GNU tool for automatically configuring source code
+Architecture    : any
+URL             : https://www.gnu.org/software/autoconf
+Licenses        : GPL2  GPL3  custom
+Groups          : base-devel
+Provides        : None
+Depends On      : awk  m4  diffutils  perl  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.20 MiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 03 Feb 2021 10:03:39 AM +06
+Install Date    : Fri 20 Aug 2021 09:54:05 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : automake
+Version         : 1.16.5-1
+Description     : A GNU tool for automatically creating Makefiles
+Architecture    : any
+URL             : https://www.gnu.org/software/automake
+Licenses        : GPL
+Groups          : base-devel
+Provides        : None
+Depends On      : perl  bash
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1611.88 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 05 Oct 2021 01:45:02 AM +06
+Install Date    : Sun 07 Nov 2021 04:00:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : base
+Version         : 2-2
+Description     : Minimal package set to define a basic Arch Linux installation
+Architecture    : any
+URL             : https://www.archlinux.org
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : filesystem  gcc-libs  glibc  bash  coreutils  file  findutils  gawk  grep  procps-ng  sed  tar  gettext  pciutils  psmisc  shadow  util-linux  bzip2  gzip  xz  licenses  pacman  systemd  systemd-sysvcompat  iputils  iproute2
+Optional Deps   : linux: bare metal support
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 0.00 B
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Wed 13 Nov 2019 10:21:49 PM +06
+Install Date    : Fri 20 Aug 2021 01:57:49 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : binutils
+Version         : 2.38-5
+Description     : A set of programs to assemble and manipulate binary and object files
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/binutils/
+Licenses        : GPL3  GPL  FDL1.3  custom:FSFAP
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  zlib  libelf
+Optional Deps   : debuginfod: for debuginfod server/client functionality
+Required By     : gcc  mkinitcpio
+Optional For    : None
+Conflicts With  : binutils-multilib
+Replaces        : binutils-multilib
+Installed Size  : 30.90 MiB
+Packager        : Frederik Schwan <freswa@archlinux.org>
+Build Date      : Fri 06 May 2022 10:22:37 PM +06
+Install Date    : Thu 19 May 2022 05:09:23 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : bison
+Version         : 3.8.2-4
+Description     : The GNU general-purpose parser generator
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/bison/bison.html
+Licenses        : GPL3
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  m4  sh  gettext
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.53 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Sun 24 Apr 2022 03:27:10 PM +06
+Install Date    : Sun 01 May 2022 03:57:11 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : blender
+Version         : 17:3.1.2-2.1
+Description     : A fully integrated 3D graphics creation suite
+Architecture    : x86_64
+URL             : https://www.blender.org
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : libpng  libtiff  openexr  python  desktop-file-utils  python-requests  potrace  shared-mime-info  hicolor-icon-theme  xdg-utils  glew  openjpeg2  python-numpy  freetype2  openal  ffmpeg  fftw  boost-libs  opencollada  alembic  openxr  openimageio  libsndfile  jack  opencolorio  openshadinglanguage  openimagedenoise  jemalloc  libspnav  ptex  opensubdiv  openvdb  log4cplus  sdl2  embree  libharu  draco
+Optional Deps   : cuda: cycles renderer cuda support
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 325.40 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Mon 16 May 2022 02:55:03 PM +06
+Install Date    : Thu 19 May 2022 05:09:25 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : coolreader
+Version         : 3.2.59-4
+Description     : Fast and small XML/CSS based eBook reader
+Architecture    : x86_64
+URL             : https://github.com/buggins/coolreader
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : fribidi  hicolor-icon-theme  libunibreak  qt5-base
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 13.63 MiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 02 Mar 2022 06:37:38 PM +06
+Install Date    : Wed 09 Mar 2022 07:46:06 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : delve
+Version         : 1.8.3-1
+Description     : A debugger for the Go programming language.
+Architecture    : x86_64
+URL             : https://github.com/go-delve/delve
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : None
+Optional Deps   : debuginfod: debuginfod support
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 12.81 MiB
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Wed 27 Apr 2022 02:20:00 AM +06
+Install Date    : Sun 01 May 2022 03:57:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : efibootmgr
+Version         : 17-2
+Description     : Linux user-space application to modify the EFI Boot Manager
+Architecture    : x86_64
+URL             : https://github.com/rhboot/efibootmgr
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : glibc  popt  libefiboot.so=1-64  libefivar.so=1-64
+Optional Deps   : None
+Required By     : None
+Optional For    : grub
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 78.05 KiB
+Packager        : David Runge <dvzrv@archlinux.org>
+Build Date      : Sat 05 Sep 2020 03:06:05 AM +06
+Install Date    : Fri 20 Aug 2021 03:46:10 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : fakeroot
+Version         : 1.28-1
+Description     : Tool for simulating superuser privileges
+Architecture    : x86_64
+URL             : https://tracker.debian.org/pkg/fakeroot
+Licenses        : GPL
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  filesystem  sed  util-linux  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 134.26 KiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Sun 06 Mar 2022 02:07:41 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:07 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : fceux
+Version         : 2.6.4-2
+Description     : Fast and ultra-compatible NES/Famicom emulator
+Architecture    : x86_64
+URL             : https://github.com/TASEmulators/fceux
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : gd  lua  minizip  qt5-base  sdl2
+Optional Deps   : ffmpeg: for recording [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 5.96 MiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Mon 25 Apr 2022 05:25:00 AM +06
+Install Date    : Sun 01 May 2022 03:57:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : feh
+Version         : 3.8-2
+Description     : Fast and light imlib2-based image viewer
+Architecture    : x86_64
+URL             : https://feh.finalrewind.org/
+Licenses        : custom:MIT
+Groups          : None
+Provides        : None
+Depends On      : curl  file  imlib2  libexif  libxinerama
+Optional Deps   : imagemagick: support more file formats
+                  jpegexiforient: set exif rotation tag
+Required By     : None
+Optional For    : neofetch
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 440.46 KiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Fri 11 Feb 2022 02:58:39 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:07 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ffmpegthumbnailer
+Version         : 2.2.2-4
+Description     : Lightweight video thumbnailer that can be used by file managers
+Architecture    : x86_64
+URL             : https://github.com/dirkvdb/ffmpegthumbnailer
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : ffmpeg  libjpeg  libpng
+Optional Deps   : gvfs: support for gio uris
+Required By     : None
+Optional For    : ranger  tumbler
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 280.47 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Fri 18 Feb 2022 02:59:56 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:07 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : firefox
+Version         : 100.0.1-1
+Description     : Standalone web browser from mozilla.org
+Architecture    : x86_64
+URL             : https://www.mozilla.org/firefox/
+Licenses        : MPL  GPL  LGPL
+Groups          : None
+Provides        : None
+Depends On      : gtk3  libxt  mime-types  dbus-glib  ffmpeg  nss  ttf-font  libpulse
+Optional Deps   : networkmanager: Location detection via available WiFi networks
+                  libnotify: Notification integration [installed]
+                  pulseaudio: Audio support [installed]
+                  speech-dispatcher: Text-to-Speech
+                  hunspell-en_US: Spell checking, American English
+                  xdg-desktop-portal: Screensharing with Wayland
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 232.48 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Sun 15 May 2022 12:58:25 AM +06
+Install Date    : Thu 19 May 2022 05:09:26 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : flameshot
+Version         : 11.0.0-5
+Description     : Powerful yet simple to use screenshot software
+Architecture    : x86_64
+URL             : https://github.com/flameshot-org/flameshot
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : qt5-svg  hicolor-icon-theme  kguiaddons
+Optional Deps   : gnome-shell-extension-appindicator: for system tray icon if you are using Gnome
+                  grim: for wlroots wayland support
+                  xdg-desktop-portal: for wayland support, you will need the implementation for your wayland desktop environment
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.03 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Sat 23 Apr 2022 07:26:49 PM +06
+Install Date    : Sun 01 May 2022 03:57:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : flex
+Version         : 2.6.4-3
+Description     : A tool for generating text-scanning programs
+Architecture    : x86_64
+URL             : https://github.com/westes/flex
+Licenses        : custom
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  m4  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 971.00 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Wed 13 Nov 2019 11:43:31 PM +06
+Install Date    : Fri 20 Aug 2021 09:54:05 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : gcc
+Version         : 12.1.0-2
+Description     : The GNU Compiler Collection - C and C++ frontends
+Architecture    : x86_64
+URL             : https://gcc.gnu.org
+Licenses        : GPL3  LGPL  FDL  custom
+Groups          : base-devel
+Provides        : gcc-multilib
+Depends On      : gcc-libs=12.1.0-2  binutils>=2.28  libmpc  zstd  libisl.so=23-64
+Optional Deps   : lib32-gcc-libs: for generating code for 32-bit ABI
+Required By     : clang
+Optional For    : xorg-xrdb
+Conflicts With  : None
+Replaces        : gcc-multilib
+Installed Size  : 170.30 MiB
+Packager        : Frederik Schwan <freswa@archlinux.org>
+Build Date      : Sun 15 May 2022 09:19:40 AM +06
+Install Date    : Thu 19 May 2022 05:09:24 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : gdb
+Version         : 12.1-1
+Description     : The GNU Debugger
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/gdb/
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : glibc  ncurses  libncursesw.so=6-64  gcc-libs  expat  xz  mpfr  source-highlight  gdb-common=12.1  readline  libreadline.so=8-64  guile  python  libelf
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 10.28 MiB
+Packager        : Anatol Pomozov <anatol.pomozov@gmail.com>
+Build Date      : Wed 11 May 2022 04:41:41 AM +06
+Install Date    : Thu 19 May 2022 05:09:26 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : git
+Version         : 2.36.1-1
+Description     : the fast distributed version control system
+Architecture    : x86_64
+URL             : https://git-scm.com/
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : curl  expat  perl  perl-error  perl-mailtools  openssl  pcre2  grep  shadow  zlib
+Optional Deps   : tk: gitk and git gui
+                  perl-libwww: git svn [installed]
+                  perl-term-readkey: git svn and interactive.singlekey setting
+                  perl-io-socket-ssl: git send-email TLS support
+                  perl-authen-sasl: git send-email TLS support
+                  perl-mediawiki-api: git mediawiki support
+                  perl-datetime-format-iso8601: git mediawiki support
+                  perl-lwp-protocol-https: git mediawiki https support
+                  perl-cgi: gitweb (web interface) support
+                  python: git svn & git p4 [installed]
+                  subversion: git svn
+                  org.freedesktop.secrets: keyring credential helper
+                  libsecret: libsecret credential helper [installed]
+Required By     : yay
+Optional For    : gettext  ktexteditor
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 33.74 MiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Sat 07 May 2022 08:10:37 PM +06
+Install Date    : Thu 19 May 2022 05:09:26 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : google-chrome
+Version         : 101.0.4951.64-1
+Description     : The popular and trusted web browser by Google (Stable Channel)
+Architecture    : x86_64
+URL             : https://www.google.com/chrome
+Licenses        : custom:chrome
+Groups          : None
+Provides        : None
+Depends On      : alsa-lib  gtk3  libcups  libxss  libxtst  nss  ttf-liberation  xdg-utils
+Optional Deps   : pipewire: WebRTC desktop sharing under Wayland
+                  kdialog: for file dialogs in KDE
+                  gnome-keyring: for storing passwords in GNOME keyring
+                  kwallet: for storing passwords in KWallet [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 276.98 MiB
+Packager        : Unknown Packager
+Build Date      : Fri 20 May 2022 03:55:44 PM +06
+Install Date    : Fri 20 May 2022 03:55:54 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : None
+
+Name            : grub
+Version         : 2:2.06-5
+Description     : GNU GRand Unified Bootloader (2)
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/grub/
+Licenses        : GPL3
+Groups          : None
+Provides        : grub-common  grub-bios  grub-emu  grub-efi-x86_64
+Depends On      : sh  xz  gettext  device-mapper
+Optional Deps   : freetype2: For grub-mkfont usage [installed]
+                  fuse2: For grub-mount usage [installed]
+                  dosfstools: For grub-mkrescue FAT FS and EFI support [installed]
+                  lzop: For grub-mkrescue LZO support
+                  efibootmgr: For grub-install EFI support [installed]
+                  libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+                  os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+                  mtools: For grub-mkrescue FAT FS support
+Required By     : woeusb
+Optional For    : None
+Conflicts With  : grub-common  grub-bios  grub-emu  grub-efi-x86_64  grub-legacy
+Replaces        : grub-common  grub-bios  grub-emu  grub-efi-x86_64
+Installed Size  : 34.10 MiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Mon 28 Mar 2022 02:27:03 PM +06
+Install Date    : Sat 09 Apr 2022 04:03:09 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : htop
+Version         : 3.2.0-1
+Description     : Interactive process viewer
+Architecture    : x86_64
+URL             : https://htop.dev/
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : libcap  libcap.so=2-64  libnl  ncurses  libncursesw.so=6-64
+Optional Deps   : lm_sensors: show cpu temperatures [installed]
+                  lsof: show files opened by a process
+                  strace: attach to a running process
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 362.44 KiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Mon 02 May 2022 12:33:52 PM +06
+Install Date    : Thu 05 May 2022 08:03:14 AM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : iwd
+Version         : 1.27-1
+Description     : Internet Wireless Daemon
+Architecture    : x86_64
+URL             : https://git.kernel.org/cgit/network/wireless/iwd.git/
+Licenses        : LGPL
+Groups          : None
+Provides        : None
+Depends On      : glibc  readline  libreadline.so=8-64  ell
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1918.02 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Fri 22 Apr 2022 12:47:13 AM +06
+Install Date    : Sun 01 May 2022 03:57:14 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : kile
+Version         : 2.9.93-3
+Description     : A user friendly TeX/LaTeX frontend for KDE
+Architecture    : x86_64
+URL             : https://apps.kde.org/es/kile/
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : ktexteditor  kinit  okular  khtml  texlive-core  qt5-script
+Optional Deps   : konsole: embedded terminal
+                  imagemagick: for some file type conversions
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 21.23 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Thu 28 Oct 2021 09:48:23 PM +06
+Install Date    : Thu 14 Apr 2022 12:32:39 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : kitty
+Version         : 0.25.0-2
+Description     : A modern, hackable, featureful, OpenGL-based terminal emulator
+Architecture    : x86_64
+URL             : https://github.com/kovidgoyal/kitty
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : python3  freetype2  fontconfig  wayland  libx11  libxkbcommon-x11  libxi  hicolor-icon-theme  libgl  dbus  lcms2  librsync  kitty-terminfo  kitty-shell-integration
+Optional Deps   : imagemagick: viewing images with icat
+                  python-pygments: syntax highlighting in kitty +kitten diff
+                  libcanberra: playing "bell" sound on terminal bell [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 21.37 MiB
+Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
+Build Date      : Mon 02 May 2022 06:35:34 PM +06
+Install Date    : Thu 05 May 2022 08:03:14 AM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : lib32-glibc
+Version         : 2.35-5
+Description     : GNU C Library (32-bit)
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/libc
+Licenses        : GPL  LGPL
+Groups          : None
+Provides        : None
+Depends On      : glibc=2.35
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 18.04 MiB
+Packager        : Frederik Schwan <freswa@archlinux.org>
+Build Date      : Fri 13 May 2022 08:57:54 PM +06
+Install Date    : Thu 19 May 2022 05:09:29 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : linux-firmware
+Version         : 20220509.b19cbdc-1
+Description     : Firmware files for Linux
+Architecture    : any
+URL             : https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+Licenses        : GPL2  GPL3  custom
+Groups          : None
+Provides        : None
+Depends On      : linux-firmware-whence
+Optional Deps   : None
+Required By     : None
+Optional For    : linux-lts
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 165.58 MiB
+Packager        : Laurent Carlier <lordheavym@archlinux.org>
+Build Date      : Fri 13 May 2022 01:39:32 PM +06
+Install Date    : Thu 19 May 2022 05:09:29 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : linux-lts
+Version         : 5.15.41-1
+Description     : The LTS Linux kernel and modules
+Architecture    : x86_64
+URL             : https://www.kernel.org/
+Licenses        : GPL2
+Groups          : None
+Provides        : VIRTUALBOX-GUEST-MODULES  WIREGUARD-MODULE
+Depends On      : coreutils  kmod  initramfs
+Optional Deps   : wireless-regdb: to set the correct wireless channels of your country
+                  linux-firmware: firmware images needed for some devices [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : wireguard-lts
+Installed Size  : 128.43 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Wed 18 May 2022 07:37:06 PM +06
+Install Date    : Thu 19 May 2022 05:09:30 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : m4
+Version         : 1.4.19-1
+Description     : The GNU macro processor
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/m4
+Licenses        : GPL3
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  bash
+Optional Deps   : None
+Required By     : autoconf  bison  flex
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 502.14 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 08 Jun 2021 12:29:25 AM +06
+Install Date    : Fri 20 Aug 2021 09:54:05 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : make
+Version         : 4.3-3
+Description     : GNU make utility to maintain groups of programs
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/make
+Licenses        : GPL3
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  guile
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1551.73 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Wed 08 Apr 2020 07:37:19 PM +06
+Install Date    : Fri 20 Aug 2021 09:54:06 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : mplayer
+Version         : 38359-1
+Description     : Media player for Linux
+Architecture    : x86_64
+URL             : http://www.mplayerhq.hu/
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : desktop-file-utils  ttf-font  enca  libxss  a52dec  libvpx  lirc  x264  libmng  libdca  aalib  libxinerama  smbclient  jack  libmad  libcaca  libxxf86vm  faac  faad2  libxv  libxvmc  mpg123  libx11  libcdio  libcdio-paranoia  rtmpdump  libdvdread  libdvdnav  ffmpeg  libbs2b  alsa-lib  giflib  libgif.so=7-64  glibc  libass  libass.so=9-64  zlib  libjpeg  libpng  libpulse  libogg  fribidi  libtheora  libvorbis  libvorbis.so=0-64  libbluray  libbluray.so=2-64  xvidcore  libxvidcore.so=4-64  ncurses  libncursesw.so=6-64  fontconfig  freetype2  libxext  libvdpau  libgl  openal  speex  libmpeg2
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 4.88 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Mon 14 Mar 2022 03:17:55 AM +06
+Install Date    : Sat 09 Apr 2022 04:03:11 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : nano
+Version         : 6.3-1
+Description     : Pico editor clone with enhancements
+Architecture    : x86_64
+URL             : https://www.nano-editor.org
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : ncurses  file  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.48 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Fri 29 Apr 2022 12:48:46 AM +06
+Install Date    : Sun 01 May 2022 03:57:19 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : neofetch
+Version         : 7.1.0-2
+Description     : A CLI system information tool written in BASH that supports displaying images.
+Architecture    : any
+URL             : https://github.com/dylanaraps/neofetch
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : bash
+Optional Deps   : catimg: Display Images
+                  chafa: Image to text support
+                  feh: Wallpaper Display [installed]
+                  imagemagick: Image cropping / Thumbnail creation / Take a screenshot
+                  jp2a: Display Images
+                  libcaca: Display Images [installed]
+                  nitrogen: Wallpaper Display
+                  w3m: Display Images
+                  xdotool: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal
+                  xorg-xdpyinfo: Resolution detection (Single Monitor) [installed]
+                  xorg-xprop: Desktop Environment and Window Manager [installed]
+                  xorg-xrandr: Resolution detection (Multi Monitor + Refresh rates) [installed]
+                  xorg-xwininfo: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 339.13 KiB
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Fri 02 Oct 2020 09:07:26 PM +06
+Install Date    : Tue 24 Aug 2021 12:29:00 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : nload
+Version         : 0.7.4-7
+Description     : Monitors network traffic and bandwidth usage
+Architecture    : x86_64
+URL             : http://www.roland-riegel.de/nload
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs  ncurses
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 156.41 KiB
+Packager        : Jelle van der Waa <jelle@archlinux.org>
+Build Date      : Wed 12 May 2021 02:13:37 AM +06
+Install Date    : Thu 10 Mar 2022 04:10:57 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ntfs-3g
+Version         : 2021.8.22-1
+Description     : NTFS filesystem driver and utilities
+Architecture    : x86_64
+URL             : https://www.tuxera.com/community/open-source-ntfs-3g/
+Licenses        : GPL2
+Groups          : None
+Provides        : ntfsprogs
+Depends On      : util-linux  fuse2
+Optional Deps   : None
+Required By     : wimlib  woeusb
+Optional For    : udisks2
+Conflicts With  : ntfsprogs
+Replaces        : ntfsprogs
+Installed Size  : 1797.12 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Thu 02 Sep 2021 11:34:48 PM +06
+Install Date    : Fri 17 Sep 2021 12:29:10 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : okular
+Version         : 22.04.1-1
+Description     : Document Viewer
+Architecture    : x86_64
+URL             : https://apps.kde.org/okular/
+Licenses        : GPL  LGPL  FDL
+Groups          : kde-applications  kde-graphics
+Provides        : None
+Depends On      : djvulibre  libspectre  libkexiv2  poppler-qt5  kpty  kactivities  threadweaver  kjs  kparts  purpose  discount  phonon-qt5
+Optional Deps   : ebook-tools: mobi and epub support
+                  kdegraphics-mobipocket: mobi support
+                  libzip: CHM support
+                  khtml: CHM support [installed]
+                  chmlib: CHM support
+                  calligra: ODT and ODP support
+                  unrar: Comic Book Archive support [installed]
+                  unarchiver: Comic Book Archive support (alternative)
+Required By     : kile
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 16.58 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 10 May 2022 04:58:09 PM +06
+Install Date    : Thu 19 May 2022 05:09:30 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : opendoas
+Version         : 6.8.2-1
+Description     : Run commands as super user or another user
+Architecture    : x86_64
+URL             : https://github.com/Duncaen/OpenDoas
+Licenses        : custom:ISC
+Groups          : None
+Provides        : doas
+Depends On      : pam
+Optional Deps   : None
+Required By     : None
+Optional For    : yay
+Conflicts With  : None
+Replaces        : doas
+Installed Size  : 46.60 KiB
+Packager        : Caleb Maclennan <alerque@archlinux.org>
+Build Date      : Thu 27 Jan 2022 01:44:41 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : openssh
+Version         : 9.0p1-1
+Description     : Premier connectivity tool for remote login with the SSH protocol
+Architecture    : x86_64
+URL             : https://www.openssh.com/portable.html
+Licenses        : custom:BSD
+Groups          : None
+Provides        : None
+Depends On      : glibc  krb5  openssl  libedit  ldns  libxcrypt  libcrypt.so=2-64  zlib  pam
+Optional Deps   : xorg-xauth: X11 forwarding [installed]
+                  x11-ssh-askpass: input passphrase in X
+                  libfido2: FIDO/U2F support
+Required By     : openmpi
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 4.19 MiB
+Packager        : Giancarlo Razzolini <grazzolini@archlinux.org>
+Build Date      : Fri 08 Apr 2022 06:34:30 PM +06
+Install Date    : Sun 01 May 2022 03:57:19 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : p7zip
+Version         : 1:17.04-3
+Description     : Command-line file archiver with high compression ratio
+Architecture    : x86_64
+URL             : https://github.com/jinfeihan57/p7zip
+Licenses        : LGPL  custom:unRAR
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 11.21 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Wed 08 Sep 2021 09:11:20 AM +06
+Install Date    : Sun 03 Apr 2022 01:46:17 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : patch
+Version         : 2.7.6-8
+Description     : A utility to apply patch files to original sources
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/patch/
+Licenses        : GPL
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  attr
+Optional Deps   : ed: for patch -e functionality
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 197.75 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 13 Nov 2019 06:05:02 AM +06
+Install Date    : Fri 20 Aug 2021 09:54:06 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : pcmanfm
+Version         : 1.3.2-1
+Description     : Extremely fast and lightweight file manager
+Architecture    : x86_64
+URL             : https://lxde.org/
+Licenses        : GPL
+Groups          : lxde
+Provides        : None
+Depends On      : libfm-gtk2  lxmenu-data
+Optional Deps   : gvfs: for trash support, mounting with udisks and remote filesystems
+                  xarchiver: archive management
+Required By     : None
+Optional For    : xdg-utils
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1396.69 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Sun 14 Feb 2021 03:21:21 AM +06
+Install Date    : Sat 06 Nov 2021 11:05:38 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : picom
+Version         : 9.1-3
+Description     : X compositor that may fix tearing issues
+Architecture    : x86_64
+URL             : https://github.com/yshui/picom
+Licenses        : MIT  MPL
+Groups          : None
+Provides        : compton
+Depends On      : hicolor-icon-theme  libconfig  libdbus  libev  libgl  pcre  pixman  xcb-util-image  xcb-util-renderutil
+Optional Deps   : dbus: for controlling picom via D-Bus [installed]
+                  python: for running picom-convgen.py [installed]
+                  xorg-xprop: for picom-trans [installed]
+                  xorg-xwininfo: for picom-trans [installed]
+Required By     : None
+Optional For    : zoom
+Conflicts With  : compton
+Replaces        : compton
+Installed Size  : 421.83 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 26 Apr 2022 02:59:33 AM +06
+Install Date    : Sun 01 May 2022 03:57:19 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : pkgconf
+Version         : 1.8.0-1
+Description     : Package compiler and linker metadata toolkit
+Architecture    : x86_64
+URL             : https://github.com/pkgconf/pkgconf
+Licenses        : custom:ISC
+Groups          : base-devel
+Provides        : pkg-config  pkgconfig  libpkgconf.so=3-64
+Depends On      : glibc  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : pkg-config
+Replaces        : pkg-config
+Installed Size  : 161.65 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Thu 09 Sep 2021 05:50:13 PM +06
+Install Date    : Sun 26 Sep 2021 11:40:41 AM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : postgresql
+Version         : 14.3-1
+Description     : Sophisticated object-relational DBMS
+Architecture    : x86_64
+URL             : https://www.postgresql.org/
+Licenses        : custom:PostgreSQL
+Groups          : None
+Provides        : None
+Depends On      : postgresql-libs>=14.3  krb5  libxml2  readline>=6.0  openssl>=1.0.0  pam  icu  systemd-libs  libldap  llvm-libs  libxslt
+Optional Deps   : python: for PL/Python 3 support [installed]
+                  perl: for PL/Perl support [installed]
+                  tcl: for PL/Tcl support
+                  postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+                  logrotate: rotates system logs automatically
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 55.83 MiB
+Packager        : Levente Polyak <anthraxx@archlinux.org>
+Build Date      : Fri 13 May 2022 02:44:56 AM +06
+Install Date    : Thu 19 May 2022 05:09:30 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : qbittorrent
+Version         : 4.4.2-2
+Description     : An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+Architecture    : x86_64
+URL             : https://www.qbittorrent.org
+Licenses        : custom  GPL
+Groups          : None
+Provides        : None
+Depends On      : libtorrent-rasterbar  qt6-base  qt6-svg  hicolor-icon-theme
+Optional Deps   : python: needed for torrent search tab [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 9.28 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 19 Apr 2022 12:50:50 AM +06
+Install Date    : Sun 01 May 2022 03:57:20 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ranger
+Version         : 1.9.3-4
+Description     : Simple, vim-like file manager
+Architecture    : any
+URL             : https://ranger.github.io
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : python
+Optional Deps   : atool: for previews of archives
+                  elinks: for previews of html pages
+                  ffmpegthumbnailer: for video previews [installed]
+                  highlight: for syntax highlighting of code
+                  libcaca: for ASCII-art image previews [installed]
+                  lynx: for previews of html pages
+                  mediainfo: for viewing information about media files
+                  odt2txt: for OpenDocument texts
+                  perl-image-exiftool: for viewing information about media files
+                  poppler: for pdf previews [installed]
+                  python-chardet: in case of encoding detection problems [installed]
+                  sudo: to use the "run as root"-feature [installed]
+                  transmission-cli: for viewing bittorrent information
+                  ueberzug: for previews of images
+                  w3m: for previews of images and html pages
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1861.82 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Fri 03 Dec 2021 07:00:52 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : sudo
+Version         : 1.9.10-1
+Description     : Give certain users the ability to run some commands as root
+Architecture    : x86_64
+URL             : https://www.sudo.ws/sudo/
+Licenses        : custom
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  openssl  pam  libldap  zlib
+Optional Deps   : None
+Required By     : None
+Optional For    : ranger  yay
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 6.85 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Fri 04 Mar 2022 12:23:56 PM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : sxhkd
+Version         : 0.6.2-2
+Description     : Simple X hotkey daemon
+Architecture    : x86_64
+URL             : https://github.com/baskerville/sxhkd
+Licenses        : custom:BSD
+Groups          : None
+Provides        : None
+Depends On      : xcb-util-keysyms
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 138.22 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Mon 25 Apr 2022 08:36:12 AM +06
+Install Date    : Sun 01 May 2022 03:57:20 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : texinfo
+Version         : 6.8-2
+Description     : GNU documentation system for on-line information and printed output
+Architecture    : x86_64
+URL             : https://www.gnu.org/software/texinfo/
+Licenses        : GPL3
+Groups          : base-devel
+Provides        : None
+Depends On      : ncurses  gzip  perl  sh
+Optional Deps   : None
+Required By     : guile
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 8.75 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Wed 28 Jul 2021 03:17:31 AM +06
+Install Date    : Fri 20 Aug 2021 09:54:06 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : thunar
+Version         : 4.16.11-2
+Description     : Modern file manager for Xfce
+Architecture    : x86_64
+URL             : https://docs.xfce.org/xfce/thunar/start
+Licenses        : GPL2  LGPL2.1
+Groups          : xfce4
+Provides        : None
+Depends On      : desktop-file-utils  libexif  hicolor-icon-theme  libnotify  libgudev  exo  libxfce4util  libxfce4ui  libpng
+Optional Deps   : gvfs: trash support, mounting with udisk and remote filesystems
+                  tumbler: thumbnail previews [installed]
+                  thunar-volman: removable device management
+                  thunar-archive-plugin: archive creation and extraction
+                  thunar-media-tags-plugin: view/edit ID3/OGG tags
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 6.29 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Sat 30 Apr 2022 08:56:02 AM +06
+Install Date    : Sun 01 May 2022 03:57:22 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : tlp
+Version         : 1.5.0-5
+Description     : Linux Advanced Power Management
+Architecture    : any
+URL             : https://linrunner.de/en/tlp/tlp.html
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : hdparm  iw  pciutils  perl  rfkill  usbutils  util-linux
+Optional Deps   : acpi_call: ThinkPad battery functions, Sandy Bridge and newer
+                  bash-completion: Bash completion
+                  ethtool: Disable Wake On Lan
+                  smartmontools: Display S.M.A.R.T. data in tlp-stat
+                  tp_smapi: ThinkPad battery functions
+Required By     : None
+Optional For    : None
+Conflicts With  : laptop-mode-tools  pm-utils  power-profiles-daemon
+Replaces        : None
+Installed Size  : 454.55 KiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Sun 06 Mar 2022 09:50:25 PM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : tmux
+Version         : 3.2_a-1
+Description     : A terminal multiplexer
+Architecture    : x86_64
+URL             : https://github.com/tmux/tmux/wiki
+Licenses        : BSD
+Groups          : None
+Provides        : None
+Depends On      : ncurses  libevent  libutempter
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 969.21 KiB
+Packager        : Christian Hesse <arch@eworm.de>
+Build Date      : Fri 11 Jun 2021 01:31:08 AM +06
+Install Date    : Thu 09 Sep 2021 09:43:57 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ttf-font-awesome
+Version         : 6.1.1-1
+Description     : Iconic font designed for Bootstrap
+Architecture    : any
+URL             : https://fontawesome.com/
+Licenses        : custom:OFL
+Groups          : None
+Provides        : None
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 633.61 KiB
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Sun 27 Mar 2022 06:48:45 PM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : tumbler
+Version         : 4.16.0-3
+Description     : D-Bus service for applications to request thumbnails
+Architecture    : x86_64
+URL             : https://docs.xfce.org/xfce/tumbler/start
+Licenses        : GPL2  LGPL
+Groups          : xfce4
+Provides        : None
+Depends On      : gdk-pixbuf2
+Optional Deps   : ffmpegthumbnailer: video thumbnails [installed]
+                  poppler-glib: PDF thumbnails
+                  libgsf: ODF thumbnails
+                  libgepub: EPUB thumbnails
+                  libopenraw: RAW thumbnails
+                  freetype2: font thumbnails [installed]
+Required By     : None
+Optional For    : thunar
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 856.85 KiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Thu 03 Jun 2021 09:36:50 AM +06
+Install Date    : Sat 06 Nov 2021 11:11:45 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : unrar
+Version         : 1:6.1.7-1
+Description     : The RAR uncompression program
+Architecture    : x86_64
+URL             : https://www.rarlab.com/rar_add.htm
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs
+Optional Deps   : None
+Required By     : None
+Optional For    : okular
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 296.98 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Fri 06 May 2022 08:10:50 PM +06
+Install Date    : Thu 19 May 2022 05:09:30 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : unzip
+Version         : 6.0-18
+Description     : For extracting and viewing files in .zip archives
+Architecture    : x86_64
+URL             : http://infozip.sourceforge.net/UnZip.html
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : bzip2  bash
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 311.46 KiB
+Packager        : Jonas Witschel <diabonas@archlinux.org>
+Build Date      : Thu 17 Feb 2022 12:25:29 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : vim
+Version         : 8.2.4827-1
+Description     : Vi Improved, a highly configurable, improved version of the vi text editor
+Architecture    : x86_64
+URL             : https://www.vim.org
+Licenses        : custom:vim
+Groups          : None
+Provides        : xxd  vim-minimal  vim-python3  vim-plugin-runtime
+Depends On      : vim-runtime=8.2.4827-1  gpm  acl  glibc  libgcrypt  pcre  zlib
+Optional Deps   : python: Python 3 language support [installed]
+                  ruby: Ruby language support
+                  lua: Lua language support [installed]
+                  perl: Perl language support [installed]
+                  tcl: Tcl language support
+Required By     : None
+Optional For    : None
+Conflicts With  : gvim  vim-minimal  vim-python3
+Replaces        : vim-python3  vim-minimal
+Installed Size  : 4.59 MiB
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Tue 26 Apr 2022 04:13:25 AM +06
+Install Date    : Sun 01 May 2022 03:57:22 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : vlc
+Version         : 3.0.17.4-3
+Description     : Multi-platform MPEG, VCD/DVD, and DivX player
+Architecture    : x86_64
+URL             : https://www.videolan.org/vlc/
+Licenses        : LGPL2.1  GPL2
+Groups          : None
+Provides        : None
+Depends On      : a52dec  libdvbpsi  libxpm  libdca  libproxy  lua52  libidn  libmatroska  taglib  libmpcdec  ffmpeg4.4  faad2  libmad  libmpeg2  xcb-util-keysyms  libtar  libxinerama  libsecret  libupnp  libixml.so=11-64  libupnp.so=17-64  libarchive  qt5-base  qt5-x11extras  qt5-svg  freetype2  fribidi  harfbuzz  fontconfig  libxml2  gnutls  libplacebo  wayland-protocols
+Optional Deps   : avahi: service discovery using bonjour protocol [installed]
+                  aom: AOM AV1 codec [installed]
+                  gst-plugins-base-libs: for libgst plugins [installed]
+                  dav1d: dav1d AV1 decoder [installed]
+                  libdvdcss: decoding encrypted DVDs
+                  libavc1394: devices using the 1394ta AV/C [installed]
+                  libdc1394: IEEE 1394 access plugin
+                  kwallet: kwallet keystore [installed]
+                  libva-vdpau-driver: vdpau backend nvidia
+                  libva-intel-driver: video backend intel
+                  libbluray: Blu-Ray video input [installed]
+                  flac: Free Lossless Audio Codec plugin [installed]
+                  twolame: TwoLAME mpeg2 encoder plugin
+                  libgme: Game Music Emu plugin
+                  vcdimager: navigate VCD with libvcdinfo
+                  libmtp: MTP devices discovery
+                  systemd-libs: udev services discovery [installed]
+                  smbclient: SMB access plugin [installed]
+                  libcdio: audio CD playback [installed]
+                  gnu-free-fonts: subtitle font  [installed]
+                  ttf-dejavu: subtitle font
+                  libssh2: sftp access [installed]
+                  libnfs: NFS access
+                  mpg123: mpg123 codec [installed]
+                  protobuf: chromecast streaming
+                  libmicrodns: mDNS services discovery (chromecast etc)
+                  lua52-socket: http interface
+                  libdvdread: DVD input module [installed]
+                  libdvdnav: DVD with navigation input module [installed]
+                  libogg: Ogg and OggSpots codec [installed]
+                  libshout: shoutcast/icecast output plugin
+                  libmodplug: MOD output plugin [installed]
+                  libvpx: VP8 and VP9 codec [installed]
+                  libvorbis: Vorbis decoder/encoder [installed]
+                  speex: Speex codec [installed]
+                  opus: opus codec [installed]
+                  libtheora: theora codec [installed]
+                  libpng: PNG support [installed]
+                  libjpeg-turbo: JPEG support [installed]
+                  librsvg: SVG plugin [installed]
+                  x264: H264 encoding [installed]
+                  x265: HEVC/H.265 encoder [installed]
+                  zvbi: VBI/Teletext/webcam/v4l2 capture/decoding
+                  libass: Subtitle support [installed]
+                  libkate: Kate codec
+                  libtiger: Tiger rendering for Kate streams
+                  sdl_image: SDL image support
+                  srt: SRT input/output plugin [installed]
+                  aalib: ASCII art video output [installed]
+                  libcaca: colored ASCII art video output [installed]
+                  libpulse: PulseAudio audio output [installed]
+                  alsa-lib: ALSA audio output [installed]
+                  jack: jack audio server [installed]
+                  libsamplerate: audio Resampler [installed]
+                  libsoxr: SoX audio Resampler [installed]
+                  lirc: lirc control [installed]
+                  libgoom2: Goom visualization
+                  projectm: ProjectM visualisation
+                  ncurses: ncurses interface [installed]
+                  libnotify: notification plugin [installed]
+                  gtk3: notification plugin [installed]
+                  aribb24: aribsub support
+                  aribb25: aribcam support
+                  pcsclite: aribcam support
+Required By     : None
+Optional For    : None
+Conflicts With  : vlc-plugin
+Replaces        : vlc-plugin
+Installed Size  : 58.63 MiB
+Packager        : Levente Polyak <anthraxx@archlinux.org>
+Build Date      : Mon 25 Apr 2022 11:39:32 PM +06
+Install Date    : Thu 19 May 2022 05:09:31 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : which
+Version         : 2.21-5
+Description     : A utility to show the full path of commands
+Architecture    : x86_64
+URL             : https://savannah.gnu.org/projects/which/
+Licenses        : GPL3
+Groups          : base-devel
+Provides        : None
+Depends On      : glibc  bash
+Optional Deps   : None
+Required By     : xdg-utils
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 34.38 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Wed 13 Nov 2019 11:08:36 PM +06
+Install Date    : Fri 20 Aug 2021 09:54:06 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : woeusb
+Version         : 5.2.4-1
+Description     : A Linux program to create Windows USB stick installer from a Windows DVD or an image
+Architecture    : any
+URL             : https://github.com/WoeUSB/WoeUSB
+Licenses        : GPL3
+Groups          : None
+Provides        : woeusb
+Depends On      : dosfstools  grub  ntfs-3g  parted  wget  wimlib
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 74.58 KiB
+Packager        : Unknown Packager
+Build Date      : Wed 09 Mar 2022 07:58:33 PM +06
+Install Date    : Wed 09 Mar 2022 07:58:36 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
+Name            : xclip
+Version         : 0.13-3
+Description     : Command line interface to the X11 clipboard
+Architecture    : x86_64
+URL             : https://github.com/astrand/xclip
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : libxmu
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 34.39 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Sat 16 May 2020 04:26:14 PM +06
+Install Date    : Thu 26 Aug 2021 04:36:30 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xf86-video-vesa
+Version         : 2.5.0-2
+Description     : X.org vesa video driver
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-drivers  xorg
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : xorg-server<21.1.1  X-ABI-VIDEODRV_VERSION<25  X-ABI-VIDEODRV_VERSION>=26
+Replaces        : None
+Installed Size  : 33.23 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 07 Nov 2021 05:32:09 PM +06
+Install Date    : Fri 12 Nov 2021 08:53:29 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-bdftopcf
+Version         : 1.1-2
+Description     : Convert X font from Bitmap Distribution Format to Portable Compiled Format
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg  xorg-apps
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 44.73 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 09:13:20 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:54 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-docs
+Version         : 1.7.2-1
+Description     : X.org documentations
+Architecture    : any
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : man-db
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 837.24 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 04 Apr 2022 11:31:28 AM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-font-util
+Version         : 1.3.2-2
+Description     : X.Org font utilities
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-fonts  xorg
+Provides        : font-util
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : font-util
+Replaces        : font-util
+Installed Size  : 230.95 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 08:09:16 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:55 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-fonts-100dpi
+Version         : 1.0.3-7
+Description     : X.org 100dpi fonts
+Architecture    : any
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : xorg-fonts-alias-100dpi
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 12.18 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Tue 30 Jun 2020 11:00:36 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:55 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-fonts-75dpi
+Version         : 1.0.3-7
+Description     : X.org 75dpi fonts
+Architecture    : any
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : xorg-fonts-alias-75dpi
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 10.64 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Tue 30 Jun 2020 11:07:12 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:55 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-fonts-encodings
+Version         : 1.0.5-2
+Description     : X.org font encoding files
+Architecture    : any
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-fonts  xorg
+Provides        : None
+Depends On      : None
+Optional Deps   : None
+Required By     : libfontenc
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 625.44 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 05:50:06 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:55 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-iceauth
+Version         : 1.0.9-1
+Description     : ICE authority file utility
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libice
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 40.75 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 04 Apr 2022 01:12:25 AM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-mkfontscale
+Version         : 1.2.2-1
+Description     : Create an index of scalable font files for X
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : xorg-mkfontdir
+Depends On      : freetype2  libfontenc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : xorg-mkfontdir
+Replaces        : xorg-mkfontdir
+Installed Size  : 47.67 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 04 Apr 2022 11:16:53 AM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : xorg-server
+Version         : 21.1.3-6
+Description     : Xorg X server
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : X-ABI-VIDEODRV_VERSION=25.2  X-ABI-XINPUT_VERSION=24.4  X-ABI-EXTENSION_VERSION=10.0  x-server
+Depends On      : libepoxy  libxfont2  pixman  xorg-server-common  libunwind  dbus  libgl  xf86-input-libinput  nettle  libpciaccess  libdrm  libxshmfence  libxcvt
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : nvidia-utils<=331.20  glamor-egl  xf86-video-modesetting
+Replaces        : glamor-egl  xf86-video-modesetting
+Installed Size  : 3.71 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : xorg-server-common
+Version         : 21.1.3-6
+Description     : Xorg server common files
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : xkeyboard-config  xorg-xkbcomp  xorg-setxkbmap
+Optional Deps   : None
+Required By     : xorg-server  xorg-server-xephyr  xorg-server-xnest  xorg-server-xvfb  xorg-xwayland
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 127.09 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-server-devel
+Version         : 21.1.3-6
+Description     : Development files for the X.Org X server
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : xorgproto  mesa  libpciaccess  xorg-util-macros
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1224.86 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-server-xephyr
+Version         : 21.1.3-6
+Description     : A nested X server that runs as an X application
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : libxfont2  libgl  libepoxy  libunwind  systemd-libs  libxv  pixman  xorg-server-common  xcb-util-image  xcb-util-renderutil  xcb-util-wm  xcb-util-keysyms  nettle  libtirpc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.25 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-server-xnest
+Version         : 21.1.3-6
+Description     : A nested X server that runs as an X application
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : libxfont2  libxext  pixman  xorg-server-common  nettle  libtirpc  systemd-libs
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1461.32 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-server-xvfb
+Version         : 21.1.3-6
+Description     : Virtual framebuffer X server
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : None
+Depends On      : libxfont2  libunwind  pixman  xorg-server-common  xorg-xauth  libgl  nettle  libtirpc  systemd-libs
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1944.02 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 20 Feb 2022 03:19:58 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-sessreg
+Version         : 1.1.2-2
+Description     : Register X sessions in system utmp/utmpx databases
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 17.73 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 08:32:56 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:56 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-setxkbmap
+Version         : 1.3.3-1
+Description     : Set the keyboard using the X Keyboard Extension
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxkbfile  xorg-xrandr
+Optional Deps   : None
+Required By     : xorg-server-common
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 33.39 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 04 Apr 2022 11:21:25 AM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-smproxy
+Version         : 1.0.6-3
+Description     : Allows X applications that do not support X11R6 session management to participate in an X11R6 session
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libsm  libxt  libxmu
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 28.19 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:26:47 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:56 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-x11perf
+Version         : 1.6.1-2
+Description     : Simple X server performance benchmarker
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxmu  libxrender  libxft  libxext
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 234.40 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 08:03:54 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xauth
+Version         : 1.1.2-1
+Description     : X.Org authorization settings program
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxmu
+Optional Deps   : None
+Required By     : xorg-server-xvfb  xorg-xinit
+Optional For    : openssh
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 55.93 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Wed 20 Apr 2022 06:02:53 PM +06
+Install Date    : Sun 01 May 2022 03:57:22 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xbacklight
+Version         : 1.2.3-2
+Description     : RandR-based backlight control application
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : xcb-util
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 16.06 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 06 May 2020 09:15:21 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xcmsdb
+Version         : 1.0.5-3
+Description     : Device Color Characterization utility for X Color Management System
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 42.42 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:53:25 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xcursorgen
+Version         : 1.0.7-2
+Description     : Create an X cursor file from PNG images
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxcursor  libpng
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 20.15 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:48:59 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xdpyinfo
+Version         : 1.3.3-4
+Description     : Display information utility for X
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxext  libxtst  libxxf86vm  libxrender  libxcomposite  libxinerama
+Optional Deps   : None
+Required By     : None
+Optional For    : neofetch
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 37.11 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 10 Apr 2022 03:03:56 PM +06
+Install Date    : Sun 01 May 2022 03:57:22 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xdriinfo
+Version         : 1.0.6-2
+Description     : Query configuration information of DRI drivers
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libgl
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 15.42 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 09:02:28 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xev
+Version         : 1.2.4-1
+Description     : Print contents of X events
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxrandr
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 32.54 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sun 19 Jul 2020 03:27:33 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xgamma
+Version         : 1.0.6-3
+Description     : Alter a monitor's gamma correction
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxxf86vm
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 17.62 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:46:23 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xhost
+Version         : 1.0.8-2
+Description     : Server access control program for X
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxmu
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 23.56 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:56:54 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xinit
+Version         : 1.4.1-3
+Description     : X.Org initialisation program
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : libx11  xorg-xauth  xorg-xrdb  xorg-xmodmap
+Optional Deps   : xorg-twm
+                  xterm [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 35.42 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sat 10 Oct 2020 08:27:47 PM +06
+Install Date    : Fri 20 Aug 2021 04:46:16 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xinput
+Version         : 1.6.3-2
+Description     : Small commandline tool to configure devices
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxi>=1.5.99.2  xorg-xrandr  libxinerama
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 63.81 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Sat 16 May 2020 04:03:55 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xkbcomp
+Version         : 1.4.5-1
+Description     : X Keyboard description compiler
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxkbfile
+Optional Deps   : None
+Required By     : xorg-server-common
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 221.90 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Wed 17 Mar 2021 01:05:20 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:55 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xkbevd
+Version         : 1.1.4-3
+Description     : XKB event daemon
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxkbfile
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 44.79 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 07:34:58 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xkbutils
+Version         : 1.0.4-4
+Description     : XKB utility demos
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxaw  libxt  libx11
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 65.46 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Sat 16 May 2020 05:05:24 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xkill
+Version         : 1.0.5-2
+Description     : Kill a client by its X resource
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxmu
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 16.64 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:55:34 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xlsatoms
+Version         : 1.1.3-2
+Description     : List interned atoms defined on server
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxcb
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 16.24 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 06 May 2020 09:13:27 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xlsclients
+Version         : 1.1.4-2
+Description     : List client applications running on a display
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxcb
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 21.19 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Wed 06 May 2020 09:11:36 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xmodmap
+Version         : 1.0.10-2
+Description     : Utility for modifying keymaps and button mappings
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11
+Optional Deps   : None
+Required By     : xorg-xinit
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 49.09 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 08:10:15 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xpr
+Version         : 1.0.5-2
+Description     : Print an X window dump from xwd
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxmu  sh
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 64.84 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:53:44 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xprop
+Version         : 1.2.5-1
+Description     : Property displayer for X
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11
+Optional Deps   : None
+Required By     : xdg-utils
+Optional For    : neofetch  picom
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 55.91 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Fri 20 Nov 2020 11:21:05 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xrandr
+Version         : 1.5.1-2
+Description     : Primitive command line interface to RandR extension
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxrandr  libx11
+Optional Deps   : None
+Required By     : opensubdiv  xorg-setxkbmap  xorg-xinput
+Optional For    : neofetch
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 69.44 KiB
+Packager        : Evangelos Foutras <evangelos@foutrelis.com>
+Build Date      : Sat 16 May 2020 03:41:39 PM +06
+Install Date    : Fri 20 Aug 2021 07:48:51 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xrdb
+Version         : 1.2.1-1
+Description     : X server resource database utility
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxmu
+Optional Deps   : gcc: for preprocessing [installed]
+                  mcpp: a lightweight alternative for preprocessing
+Required By     : xorg-xinit
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 40.69 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Sat 21 Aug 2021 03:42:40 AM +06
+Install Date    : Sun 29 Aug 2021 10:23:14 AM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xrefresh
+Version         : 1.0.6-2
+Description     : Refresh all or part of an X screen
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 17.55 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:52:34 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xset
+Version         : 1.2.4-2
+Description     : User preference utility for X
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxmu
+Optional Deps   : None
+Required By     : xdg-utils
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 39.78 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:52:13 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xsetroot
+Version         : 1.1.2-2
+Description     : Classic X utility to set your root window background to a given pattern or color
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxmu  libx11  libxcursor
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 21.07 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:49:49 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xvinfo
+Version         : 1.1.4-2
+Description     : Prints out the capabilities of any video adaptors associated with the display that are accessible through the X-Video extension
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11  libxv
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 19.59 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Fri 15 May 2020 08:47:20 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xwayland
+Version         : 22.1.1-1
+Description     : run X clients under wayland
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org
+Licenses        : custom
+Groups          : xorg
+Provides        : xorg-server-xwayland
+Depends On      : nettle  libepoxy  systemd-libs  libxfont2  pixman  xorg-server-common  libxcvt
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : xorg-server-xwayland
+Replaces        : xorg-server-xwayland
+Installed Size  : 2.19 MiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Thu 31 Mar 2022 10:22:28 PM +06
+Install Date    : Sat 09 Apr 2022 04:03:12 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xwd
+Version         : 1.0.8-1
+Description     : X Window System image dumping utility
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxkbfile
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 38.13 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 02 Aug 2021 10:26:13 PM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xwininfo
+Version         : 1.1.5-2
+Description     : Command-line utility to print information about windows on an X server
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libxcb
+Optional Deps   : None
+Required By     : None
+Optional For    : neofetch  picom
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 52.19 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Fri 15 May 2020 07:59:36 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xorg-xwud
+Version         : 1.0.5-2
+Description     : X Window System image undumping utility
+Architecture    : x86_64
+URL             : https://xorg.freedesktop.org/
+Licenses        : custom
+Groups          : xorg-apps  xorg
+Provides        : None
+Depends On      : libx11
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 37.30 KiB
+Packager        : Allan McRae <allan@archlinux.org>
+Build Date      : Thu 07 May 2020 08:45:13 AM +06
+Install Date    : Fri 20 Aug 2021 04:44:59 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xscreensaver
+Version         : 6.03-1
+Description     : Screen saver and locker for the X Window System
+Architecture    : x86_64
+URL             : https://www.jwz.org/xscreensaver/
+Licenses        : BSD
+Groups          : None
+Provides        : None
+Depends On      : gtk2  glu  xorg-appres  libglvnd  libjpeg-turbo  libjpeg.so=8-64  libsystemd.so=0-64  libx11  libxcrypt  libcrypt.so=2-64  libxext  libxft  libxi  libxinerama  libxmu  libxrandr  libxt  libxxf86vm  perl-libwww  pam  libpam.so=0-64  glibc  glib2  gdk-pixbuf2  gdk-pixbuf-xlib
+Optional Deps   : gdm: for login manager support
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 35.38 MiB
+Packager        : Levente Polyak <anthraxx@archlinux.org>
+Build Date      : Wed 09 Mar 2022 03:06:45 AM +06
+Install Date    : Wed 09 Mar 2022 07:46:13 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : xterm
+Version         : 372-1
+Description     : X Terminal Emulator
+Architecture    : x86_64
+URL             : https://invisible-island.net/xterm/
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : libxft  libxaw  ncurses  luit  xbitmaps  libutempter  libxkbfile
+Optional Deps   : None
+Required By     : None
+Optional For    : xorg-xinit
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1061.25 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Fri 11 Mar 2022 12:24:46 AM +06
+Install Date    : Fri 11 Mar 2022 04:41:04 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : yay
+Version         : 11.1.2-1
+Description     : Yet another yogurt. Pacman wrapper and AUR helper written in go.
+Architecture    : x86_64
+URL             : https://github.com/Jguer/yay
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : pacman>5  git
+Optional Deps   : sudo: privilege elevation [installed]
+                  doas: privilege elevation [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 7.79 MiB
+Packager        : Unknown Packager
+Build Date      : Wed 09 Mar 2022 07:58:47 PM +06
+Install Date    : Wed 09 Mar 2022 07:59:26 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
+Name            : zoom
+Version         : 5.10.6-1
+Description     : Video Conferencing and Web Conferencing Service
+Architecture    : x86_64
+URL             : https://zoom.us/
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : fontconfig  glib2  libpulse  libsm  ttf-font  libx11  libxtst  libxcb  libxcomposite  libxfixes  libxi  libxcursor  libxkbcommon-x11  libxrandr  libxrender  libxshmfence  libxslt  mesa  nss  xcb-util-image  xcb-util-keysyms  dbus  ibus
+Optional Deps   : pulseaudio-alsa: audio via PulseAudio [installed]
+                  qt5-webengine: SSO login support [installed]
+                  picom: extra compositor needed by some window managers for screen sharing [installed]
+                  xcompmgr: extra compositor needed by some window managers for screen sharing
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 457.19 MiB
+Packager        : Unknown Packager
+Build Date      : Fri 20 May 2022 04:06:36 PM +06
+Install Date    : Fri 20 May 2022 04:11:28 PM +06
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
